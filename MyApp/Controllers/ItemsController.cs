@@ -6,10 +6,15 @@ namespace MyAPP.Controllers
     public class Items : Controller
     {
         // GET: Items
-        public ActionResult Overview()
+        public IActionResult Overview()
         {
             var item = new Item() {Name="keyboard"};
             return View(item);
+        }
+
+        public IActionResult Edit(int id)
+        {
+            return Content("id= " + id);
         }
 
     }
