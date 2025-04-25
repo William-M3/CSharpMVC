@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj": {}
+    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj": {}
   },
   "projects": {
-    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj": {
+    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj",
+        "projectUniqueName": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj",
         "projectName": "MyAPP",
-        "projectPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj",
+        "projectPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj",
         "packagesPath": "/Users/williammurphy/.nuget/packages/",
-        "outputPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/obj/",
+        "outputPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/williammurphy/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
