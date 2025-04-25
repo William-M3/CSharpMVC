@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj": {}
+    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj": {}
   },
   "projects": {
-    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj": {
+    "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj",
+        "projectUniqueName": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj",
         "projectName": "MyAPP",
-        "projectPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/MyAPP.csproj",
+        "projectPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/MyAPP.csproj",
         "packagesPath": "/Users/williammurphy/.nuget/packages/",
-        "outputPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyAPP/obj/",
+        "outputPath": "/Users/williammurphy/Code/CSharpLearn/CSharpMVC/MyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/williammurphy/.nuget/NuGet/NuGet.Config"
